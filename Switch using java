@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in);
+	int cgpa = sc.nextInt();
+	
+    switch(cgpa)
+    {
+        case 10:System.out.println("10 out stanging");
+            break;
+        case 20:System.out.println("20 excellent");
+            break;
+        default:System.out.println(" 7 or less ");
+            break;
+    }
+	}
+}
