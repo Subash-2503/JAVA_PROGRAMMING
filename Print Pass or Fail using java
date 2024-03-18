@@ -1,0 +1,19 @@
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+	Scanner sc = new Scanner(System.in);
+	int mark = sc.nextInt();
+	
+	if(mark>250)
+	{
+	    	System.out.println("pass");
+	}
+	else 
+	{
+	    	System.out.println("fail");
+	}
+	}
+}
