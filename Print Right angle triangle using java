@@ -1,0 +1,24 @@
+
+
+import java.util.*;
+public class Main
+{
+public static void main(String[] args)
+ {
+   Scanner sc=new Scanner (System.in);
+   int rows,i,j;
+   int ch =64;
+   System.out.print("Enter the number of rows : ");
+   rows = sc.nextInt();
+   System.out.println("Output : ");
+   for(i=1;i<=rows;i++)
+   {
+       for(j=1;j<=i;j++)
+       {
+          System.out.print((char)(j+ch)+" ");
+       }
+       System.out.println(" ");
+   }
+ }
+    
+}
